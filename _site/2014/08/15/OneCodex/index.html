@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> One Codex Wants To Be The Google For Genomic Data |  ThinkData Works</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  
+  <body>
+	<div class="contain-to-grid">
+		<nav class="top-bar" data-topbar role="navigation">
+		  <ul class="title-area">
+		    <li class="name">
+		      <a href="#"><img src="/img/think_data_logo-horizontal.jpg" width="50%" alt="think_data_logo-horizontal"></a>
+		    </li>
+		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+		  </ul>
+		
+		  <section class="top-bar-section">
+		    <!-- Right Nav Section -->
+		    <ul class="right">
+		    	<li><a href="#">Consulting</a></li>
+		    	<li><a href="#">Company</a></li>
+		    	<li><a href="#">Team</a></li>
+		    	<li><a href="#">Pulse</a></li>
+		    	<li><a href="#">Contact</a></li>
+		    	<li><a href="#">We're Hiring</a></li>
+		    </ul>
+		  </section>
+		</nav>
+	</div>
+	
+	<div class="row">
+	<div class="small-10 small-centered columns entries entry1">
+		   <div class="small-10 post columns">
+		    <h2 class="content">One Codex Wants To Be The Google For Genomic Data</h2>
+		    <p><p>As hospitals and public health organizations switch to using genomic data for testing, searching through genomic data can still take some time. Y Combinator-backed startup, One Codex, wants to help researchers, clinicians and public health officials, who have sequenced more than 100,000 genomes and created petabytes of data, to search this data.</p>
+</p>
+		  </div>
+	</div>
+</div>	
+
+	<div class="row">
+		<div class="small-12 small-centered text-center columns copy">
+			<footer>
+				<p>&copy 2014 Think Data Works</p>
+			</footer>
+		</div>
+	</div>
+	
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>	
+	
+	<script>
+	function getParameterByName(name, url) {
+	    if (url == undefined) url = window.location.toString();
+	    
+	    var query = url.split('?')[1];
+	    var param_pairs = query.split('&');
+	    var params = {};
+	    for (var i=0; i<param_pairs.length; i++) {
+	      var kv = param_pairs[i].split('=');
+	      params[kv[0]] = kv[1];
+	    }
+	    
+	    return params[name];
+	}
+	
+	jQuery(function($) {
+	  $('a[href*="youtube"]').each(function() {
+	    var href = $(this).attr('href');
+	    var videoId = getParameterByName('v', href);
+	
+	    $(this).replaceWith('<div class="flex-video"><iframe src="//www.youtube.com/embed/' + videoId + '?rel=0" frameborder="0" allowfullscreen></iframe></div>');
+	  });
+	});
+	</script>
+  </body>
+</html>

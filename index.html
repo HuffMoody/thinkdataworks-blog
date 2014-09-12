@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="row pulseTitle">
+	<div class="small-12 medium-10 small-centered small-text-center columns">
+		<h2>TDW Pulse</h2>
+	</div>
+</div>	
+
+<div class="row">
+	<div class="small-12 medium-10 small-centered columns entries">
+
+		{% for post in site.posts offset: 0 limit: 10 %}
+		   <div class="small-11 small-centered columns post">
+		    <h3>{{ post.title }}</h3>
+		    <h6>Shared on {{ post.date | date_to_string }} by {{ post.author }}</h6>
+		    <p>{{ post.content }}</p>
+            <p class="text-center"><img src="img/listDrop.jpg" alt=""></p>
+		   </div>
+		{% endfor %}
+	</div>
+</div>	
