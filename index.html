@@ -15,7 +15,9 @@ layout: default
 		   <div class="small-11 small-centered columns post">
 		    <h3>{{ post.title }}</h3>
 		    <h6>Shared on {{ post.date | date_to_string }} by {{ post.author }}</h6>
-		    <p>{{ post.content }}</p>
+            <p>{{ post.content }}</p>
+
+               <p><a href="{{ post.link }}" target="_blank">Click here to read the full article...</a></p>
             <p class="text-center"><img src="img/listDrop.jpg" alt=""></p>
 		   </div>
 		{% endfor %}
