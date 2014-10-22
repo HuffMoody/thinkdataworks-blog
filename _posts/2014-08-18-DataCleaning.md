@@ -1,6 +1,6 @@
 ---
 layout: blog_entry
-title: Data Cleaning is a critical part of the Data Science process
+title: Data Cleaning Is A Critical Part Of The Data Science Process
 author: Brendan Stennett
 link: http://blog.revolutionanalytics.com/2014/08/data-cleaning-is-a-critical-part-of-the-data-science-process.html
 ---

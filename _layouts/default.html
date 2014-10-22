@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %} {{ page.title }} | {% endif %} ThinkData Works</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %} {{ page.title }} | {% endif %} ThinkData Works</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/tdw-main.css" />
+  <link rel="stylesheet" href="css/tdw-vendor.css" />
+  <link rel="stylesheet" href="css/media-queries.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
   
-  <body>
-  <div class="contain-to-grid fixed columns">
+<body>
+  <div class="top-bar-nav">
+    <div class="contain-to-grid columns">
       <nav class="top-bar" data-topbar>
-          <ul class="title-area">
-              <li class="name">
-                  <span><h1>ThinkData Works</h1></span><a href="/" class="mobile-logo"><img src="img/tdwlogo-medium.svg" alt="ThinkData Works"/></a>
-                  <!--<span><h1>ThinkData Works</h1></span><a href="/" class="img-display-small"><img src="images/tdwlogo-mobile.svg" alt="ThinkData Works"/></a>-->
-              </li>
-              <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone-->
-              <li class="toggle-topbar">
-                  <a href="#" id="nav-toggle">
-                      <span></span>
-                  </a>
-              </li>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="//thinkdataworks.com">ThinkData Works</a></h1>
+          </li>
+          <li class="toggle-topbar" id="nav-toggle">
+            <a href="#"><span></span></a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="//thinkdataworks.com/consulting.html">Consulting</a></li>
+            <li><a href="//thinkdataworks.com/story.html">Story</a></li>
+            <li><a href="//thinkdataworks.com/team.html">Team</a></li>
+            <li><a href="//blog.thinkdataworks.com">Pulse</a></li>
+            <li><a href="//thinkdataworks.com/#contact">Contact</a></li>
+            <li><a href="//thinkdataworks.com/team.html#join-team">We're Hiring</a></li>
           </ul>
-          <section class="top-bar-section">
-              <ul class="right">
-                  <li><a href="/consulting.html">Consulting</a></li>
-                  <li><a href="/story.html">Story</a></li>
-                  <li><a href="/team.html">Team</a></li>
-                  <li><a href="//blog.thinkdataworks.com">Pulse</a></li>
-                  <li><a href="/#contact">Contact</a></li>
-                  <li><a href="/team.html#join-team">We're Hiring</a></li>
-              </ul>
-          </section>
+        </section>
       </nav>
+    </div>
   </div>
-	
+
 	{{ content }}
 
-	<div class="row">
-		<div class="small-12 small-centered text-center columns copy">
-			<footer>
-				<p>&copy 2014 Think Data Works</p>
-			</footer>
-		</div>
-	</div>
+  <div class="main-footer">
+    <div class="row">
+      <div class="small-12 small-centered text-center columns liquid">
+        <img src="images/footer-logo.svg" alt="ThinkData Works water drop">
+        <p class="small-text-center">Making Open Data Liquid</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 small-centered small-text-center columns">
+        <ul class="line">
+          <li><a href="//facebook.com/pages/ThinkData-Works/318824841617307" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="mobile-footer"><a href="//thinkdataworks.com/consulting.html">Consulting</a></li>
+          <li class="mobile-footer"><a href="//thinkdataworks.com/story.html">Story</a></li>
+          <li class="mobile-footer"><a href="//thinkdataworks.com/team.html">Team</a></li>
+          <li class="mobile-footer"><a href="//blog.thinkdataworks.com">Pulse</a></li>
+          <li class="mobile-footer"><a href="//thinkdataworks.com/#contact">Contact</a></li>
+          <li><a href="//twitter.com/thinkdataworks" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 small-centered text-center columns copyright">
+        <p class="small-text-center">&copy; 2014 ThinkData Works Inc.</p>
+      </div>
+    </div>
+  </div>
 	
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="../js/foundation.min.js"></script>
-      <script>
-          $(function () {
-              $(document).foundation();
-          });
-      </script>
+  <script src="../js/foundation.min.js"></script>
+  <script>
+      $(function () {
+          $(document).foundation();
+      });
+  </script>
 	<script>
 	function getParameterByName(name, url) {
 	    if (url == undefined) url = window.location.toString();
@@ -65,7 +84,6 @@
 	      var kv = param_pairs[i].split('=');
 	      params[kv[0]] = kv[1];
 	    }
-	    
 	    return params[name];
 	}
 
@@ -79,15 +97,15 @@
 	});
 	</script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-52706248-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
+    ga('create', 'UA-52706248-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+ </body>
 </html>
