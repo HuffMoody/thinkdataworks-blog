@@ -4,9 +4,31 @@
 /*----------------------mobile-media-queries--------------------------*/
 
 @media only screen and (max-width: 40em) {
+  .top-bar-nav {
+    .contain-to-grid {
+      .expanded {
+        .top-bar-section {
+          ul {
+            li {
+              display: block !important;
+              a {
+                font-size: 24px;
+                line-height: 60px;
+                border: none;
+                &:hover {
+                  background: none;
+                  color: #132c40;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .header {
     blockquote {
-      padding: 140px 50px 100px 50px !important;
+      padding: 140px 25px 100px 25px !important;
       h2 {
         font-size: 36px !important;
         line-height: 40px !important;
