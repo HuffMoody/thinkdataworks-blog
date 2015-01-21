@@ -17,7 +17,7 @@ layout: default
 		    <h3>{{ post.title }}</h3>
 		    <h4>Shared on {{ post.date | date_to_string }} by {{ post.author }}</h4>
             {{ post.content }}
-            <a href="{{ post.link }}" target="_blank">Click here to read the full article...</a>
+            <a href="{{ post.link }}" target="_blank" class="outside-link">Click here to read the full article...</a>
             <p class="text-center"><img src="images/listDrop.jpg" alt="water drop"></p>
 		   </div>
 		{% endfor %}
