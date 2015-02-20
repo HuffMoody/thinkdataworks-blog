@@ -87,14 +87,13 @@ from predictive analytics to big data.
 
 **Contacts**
 
-Bryan Smith 
-Co-Founder and CEO 
-ThinkData Works Inc. 
-bryan@thinkdataworks.com 
+Bryan Smith <br>
+Co-Founder and CEO <br>
+ThinkData Works Inc. <br>
+bryan@thinkdataworks.com <br>
 
 
-Graham Churchill
-Canada
-Business Leader, IBM Bluemix Cloud Innovation Platform 
-IBM Canada
-churchil@ca.ibm.com
+Graham Churchill <br>
+Business Leader, IBM Bluemix Cloud Innovation Platform <br>
+IBM Canada <br>
+churchil@ca.ibm.com <br>
