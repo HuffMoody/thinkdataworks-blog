@@ -4,7 +4,7 @@ title: ThinkData Launches its Namara Platform at Microsoft
 author: Kynan Bridge
 ---
 
-![ThinkData Works at Microsoft Yorkdale](../images/microsoft.jpg)
+![ThinkData Works at Microsoft Yorkdale](/images/microsoft.jpg)
 
 Today, [ThinkData Works](http://www.thinkdataworks.com) has launched
 their Namara.io platform at the Microsoft Store in Yorkdale Mall. Microsoft is

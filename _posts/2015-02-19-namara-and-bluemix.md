@@ -5,7 +5,7 @@ author: Bryan Smith
 link: http://namara.io
 ---
 
-![Bluemix and Namara.io](../images/namara-bluemix.jpg)
+![Bluemix and Namara.io](/images/namara-bluemix.jpg)
 
 **The quickest, most efficient way to build open data apps**
 
