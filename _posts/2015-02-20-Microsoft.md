@@ -2,20 +2,21 @@
 layout: blog_entry
 title: ThinkData Launches its Namara Platform at Microsoft
 author: Kynan Bridge
+published: true
 ---
 
 ![ThinkData Works at Microsoft Yorkdale](/images/microsoft.jpg)
 
-Today, [ThinkData Works](http://www.thinkdataworks.com) has launched
+Today, [ThinkData Works](http://www.thinkdataworks.com) launched
 their Namara.io platform at the Microsoft Store in Yorkdale Mall. Microsoft is
 dedicated to the open data movement and has partnered with ThinkData, providing
 them access to their cloud platform, Azure, through the BizSpark Plus program.
 Through this relationship, Microsoft is helping ThinkData provide developers with
-access to a catalogue of up to date and relevant public data, fostering the development
+access to a catalogue of up-to-date and relevant public data, fostering the development
 of data driven apps and services.
 
 Through the development of the
-[Namara.io](http://www.Namara.io) platform, ThinkData has aggregated available
+[Namara.io](http://www.namara.io) platform, ThinkData has aggregated available
 open data released by all levels of government across Canada into a single
 portal. Namara.io organizes and catalogues this public data, providing users
 with API access to high value information. 
