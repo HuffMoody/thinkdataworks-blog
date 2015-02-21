@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div class="row">
-	<div class="small-10 small-centered columns entries entry1">
-		   <div class="small-10 post columns">
-		    <h2 class="content">{{page.title}}</h2>
-		    <p>{{ content }}</p>
-		  </div>
-	</div>
-</div>	
+  <div class="small-12 medium-10 small-centered columns entries blog-page">
+    <div class="small-11 small-centered columns post">
+      <h3>{{ page.title }}</h3>
+      <h4>Shared on {{ page.date | date_to_string }} by {{ page.author }}</h4>
+      {{ content }}
+      <p class="text-center"><img src="/images/listDrop.jpg" alt="water drop"></p>
+    </div>
+  </div>
+</div>
