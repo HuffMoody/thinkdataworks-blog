@@ -1,3 +1,9 @@
+---
+published: false
+layout: blog_entry
+author: Bryan Smith
+---
+
 IBM adds Namara.io to Bluemix
 
 IBM has announced several new services, including a .NET Runtime, on its Bluemix Platform as a Service (PaaS). Announced at the Cloud Foundry Summit in Santa Clara, Calif., the new services will make it easier for developers to create cloud applications for mobile, Internet of Things (IoT), supply chain analytics and intelligent infrastructure solutions. They will be added to the more than 100 services already available in the Bluemix catalog, which also includes complementary analytics tools from IBM such as those found in the recently unveiled IoT Zone and Watson Zone.
