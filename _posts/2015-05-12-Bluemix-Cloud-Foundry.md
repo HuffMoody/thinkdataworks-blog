@@ -1,6 +1,9 @@
 ---
-published: false
+published: true
+layout: blog_entry
+author: Bryan Smith
 ---
+
 
 ## IBM Announces integration with Namara.io
 
