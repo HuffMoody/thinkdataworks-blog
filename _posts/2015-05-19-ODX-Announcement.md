@@ -2,7 +2,8 @@
 published: false
 ---
 
-![]({{site.baseurl}}/http://betakit.com/wp-content/uploads/2015/05/CFYMR7_UMAAZpbb.jpg)
+
+![Minister Clement announcing the ODX]({{site.baseurl}}/http://betakit.com/wp-content/uploads/2015/05/CFYMR7_UMAAZpbb.jpg)
 Waterloo-based innovation hub Communitech recently shut down its HYPERDRIVE accelerator program and shifted gears to re-launch as “Rev.” In addition, several partners, such as TD Bank, Manulife and Deloitte all signed on to help bolster entrepreneurship in the region by opening highly focused labs within its space.
 
 The latest partnership and monetary investment is coming from the Government of Canada. Announced today, the government will give Comminitech “up to $3 million” to establish the “Open Data Exchange (ODX),” which is coming from FedDev Ontario’s Investing in Commercialization Partnerships initiative. The goal of the ODX is to “support the development of industry standards for open data, build a national marketplace where commercialization of open data can flourish, and support a pan-Canadian open data innovation community that will incubate the next generation of data-driven companies.”
