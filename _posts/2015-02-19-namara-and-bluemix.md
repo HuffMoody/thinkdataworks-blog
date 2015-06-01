@@ -5,14 +5,14 @@ author: Bryan Smith
 link: http://namara.io
 ---
 
-![Bluemix and Namara.io](/images/namara-bluemix.jpg)
-
-**The quickest, most efficient way to build open data apps**
-
 Citizens, developers, and enthusiasts will
 stay busy this weekend hacking away on open data in honour of Open Data Day, an
 international event calling on all citizens to write applications, create
 visualizations, and publish analyses using open public data. 
+
+**The quickest, most efficient way to build open data apps**
+
+![Bluemix and Namara.io](/images/namara-bluemix.jpg)
 
 As the weekend gears up, it’s important to
 have great resources at your fingertips that make it simple to work with open
